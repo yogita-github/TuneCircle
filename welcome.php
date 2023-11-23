@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="menu_side">
+            <!-- <h1>TuneCircle</h1> -->
+            <h1>Playlist</h1>
+            <div class="playlist">
+              <h4 class="active"><span></span><i class="bi bi-music-note-beamed"><a href="welcome.php">Playlist</a></i></h4> 
+              <h4><span></span><i class="bi bi-music-note-beamed">Last Listening</i></h4> 
+              <h4><span></span><i class="bi bi-music-note-beamed">Recommended</i></h4>  
+            </div>
+            <div class="menu_song">
+                <li class="songItem">
+                    <span>01</span>
+                    <img src="img/img01.jpg" alt="">
+                    <h5>Copines<br>
+                    <div class="subtitle">Aya Nakamura</div></h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="1"></i>
+                </li>
+                <li class="songItem">
+                    <span>02</span>
+                    <img src="img/img02.jpg" alt="">
+                    <h5>Copines<br>
+                    <div class="subtitle">Aya Nakamura</div></h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+                </li>
+                <li class="songItem">
+                    <span>03</span>
+                    <img src="img/img02.jpg" alt="">
+                    <h5>Copines<br>
+                    <div class="subtitle">Aya Nakamura</div></h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="3"></i>
+                </li>
+                <li class="songItem">
+                    <span>04</span>
+                    <img src="img/img02.jpg" alt="">
+                    <h5>Copines<br>
+                    <div class="subtitle">Aya Nakamura</div></h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="4"></i>
+                </li>
+                <li class="songItem">
+                    <span>05</span>
+                    <img src="img/img02.jpg" alt="">
+                    <h5>Copines<br>
+                    <div class="subtitle">Aya Nakamura</div></h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="5"></i>
+                </li>
+                <li class="songItem">
+                    <span>06</span>
+                    <img src="img/img02.jpg" alt="">
+                    <h5>Copines<br>
+                    <div class="subtitle">Aya Nakamura</div></h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
+                </li>
+                <li class="songItem">
+                    <span>07</span>
+                    <img src="img/img02.jpg" alt="">
+                    <h5>Copines<br>
+                    <div class="subtitle">Aya Nakamura</div></h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
+                </li>
+                <li class="songItem">
+                    <span>08</span>
+                    <img src="img/img02.jpg" alt="">
+                    <h5>Copines<br>
+                    <div class="subtitle">Aya Nakamura</div></h5>
+                    <i class="bi playListPlay bi-play-circle-fill" id="8"></i>
+                </li>
+            </div>
+        </div>
+        <div class="song_side">
+          <nav>
+            <ul>
+                <a href="index.html"><li>Discover <span></span></li></a>
+                <li>MY LIBRARY</li>
+                <li>RADIO</li>
+            </ul>
+            <div class="search">
+                <i class="bi bi-search"></i>
+                <input type="text" name="" id="" placeholder="Search Music....">
+                <div class="search_results">
+                    <!-- <a href="" class="card">
+                        <img src="img/1.jpeg" alt="">
+                        <div class="content">Copines
+                            <div class="subtitle">Aya Nakamura</div>
+                        </div>
+                    </a> -->
+                    
+                    
+                </div>
+            </div>
+            <h1 class="website">TuneCircle</h1>
+            <div class="user">
+                <img src="profile.jpeg" alt="">
+            </div>
+          </nav>  
+          <div class="content">
+            <h1>Copines</h1>
+            <p>Il m'a dit "t'es où? J'te rejoins au tel-hô" Moi je m'en bats <br>les reins, j'ai besoin d'un vrai djoIl a vu mes copines,<br> j'crois qu'il a flashé J'suis pas ton plan B, t'as maté le fessier </p>
+            <div class="buttons">
+                <button>PLAY</button>
+                <button>FOLLOW</button>
+            </div>
+          </div> 
+          <div class="popular_song">
+            <div class="h4">
+                <h4>Popular Song</h4>
+                <div class="btn_s">
+                    <i class="bi bi-arrow-left" id="pop_song_left"></i>
+                    <i class="bi bi-arrow-right" id="pop_song_right"></i>
+                </div>   
+            </div>
+            <div class="pop_song">
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/img01.jpg" alt="">
+                        <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
+                    </div>
+                    <h5>Copines<br>
+                    <div class="subtitle">Aya Nakamura </div></h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/img02.jpg" alt="">
+                    <i class="bi playListPlay bi-play-circle-fill" id="10"></i>
+                    </div>
+                    <h5>Cheap Thrills<br>
+                    <div class="subtitle">Sia</div></h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/img03.jpg" alt="">
+                    <i class="bi playListPlay bi-play-circle-fill" id="11"></i>
+                    </div>
+                    <h5>Perfect<br>
+                    <div class="subtitle">Ed_Sheeran</div></h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/img04.jpg" alt="">
+                    <i class="bi playListPlay bi-play-circle-fill" id="12"></i>
+                    </div>
+                    <h5>Baby<br>
+                    <div class="subtitle">Justin Bieber</div></h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/img05.jpg" alt="">
+                    <i class="bi playListPlay bi-play-circle-fill" id="13"></i>
+                    </div>
+                    <h5>Memories<br>
+                    <div class="subtitle">Maroon_5</div></h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/img06.jpg" alt="">
+                    <i class="bi playListPlay bi-play-circle-fill" id="14"></i>
+                    </div>
+                    <h5>Girls_like_you<br>
+                    <div class="subtitle">Maroon_5</div></h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/img07.jpg" alt="">
+                    <i class="bi playListPlay bi-play-circle-fill" id="15"></i>
+                    </div>
+                    <h5>Shape-of-you<br>
+                    <div class="subtitle">Ed_Sheeran</div></h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/img08.jpg" alt="">
+                    <i class="bi playListPlay bi-play-circle-fill" id="16"></i>
+                    </div>
+                    <h5>Sunflower<br>
+                    <div class="subtitle">Alen Walker</div></h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/img09.jpg" alt="">
+                    <i class="bi playListPlay bi-play-circle-fill" id="17"></i>
+                    </div>
+                    <h5>Dance Monkey<br>
+                    <div class="subtitle">Tones_and_I</div></h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/img09.jpg" alt="">
+                    <i class="bi playListPlay bi-play-circle-fill" id="18"></i>
+                    </div>
+                    <h5>Dance Monkey<br>
+                    <div class="subtitle">Tones_and_I</div></h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/img09.jpg" alt="">
+                    <i class="bi playListPlay bi-play-circle-fill" id="19"></i>
+                    </div>
+                    <h5>Dance Monkey<br>
+                    <div class="subtitle">Tones_and_I</div></h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/img09.jpg" alt="">
+                    <i class="bi playListPlay bi-play-circle-fill" id="20"></i>
+                    </div>
+                    <h5>Dance Monkey<br>
+                    <div class="subtitle">Tones_and_I</div></h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/img09.jpg" alt="">
+                    <i class="bi playListPlay bi-play-circle-fill" id="21"></i>
+                    </div>
+                    <h5>Dance Monkey<br>
+                    <div class="subtitle">Tones_and_I</div></h5>
+                </li>
+                <li class="songItem">
+                    <div class="img_play">
+                        <img src="img/img09.jpg" alt="">
+                    <i class="bi playListPlay bi-play-circle-fill" id="22"></i>
+                    </div>
+                    <h5>Dance Monkey<br>
+                    <div class="subtitle">Tones_and_I</div></h5>
+                </li>
+                
+            </div>
+        
+        </div> 
+
+        <div class="popular_artists">
+            <div class="h4">
+                <h4>Popular Artists</h4>
+                <div class="btn_s">
+                    <i class="bi bi-arrow-left" id="pop_art_left"></i>
+                    <i class="bi bi-arrow-right" id="pop_art_right"></i>
+                </div>
+                
+            </div>
+            <div class="item">
+                <li>
+                   <a href="arjit.php"> <img src="img/arjitsingh3.jpeg" alt=""></a>
+                </li>
+                <li>
+                    <a href="darshan.php"><img src="img/darshan_raval.jpeg" alt=""></a>
+                </li>
+                <li>
+                    <img src="img/amaal_malik.jpeg" alt="">
+                </li>
+                <li>
+                    <img src="img/Aya_nakamura.jpeg" alt="">
+                </li>
+                <li>
+                    <img src="img/EdSheeren.jpeg" alt="">
+                </li>
+                <li>
+                    <img src="img/eleGoudling.jpeg" alt="">
+                </li>
+                <li>
+                    <img src="img/harshvardhan.jpeg" alt="">
+                </li>
+                <li>
+                    <img src="img/justin.jpeg" alt="">
+                </li>
+                <li>
+                    <img src="img/swae_lee.jpeg" alt="">
+                </li>
+                <li>
+                    <img src="img/sugar_artist.jpeg" alt="">
+                </li>
+                <li>
+                    <img src="img/sia.jpeg" alt="">
+                </li>
+                <li>
+                    <img src="img/dance_monkey.jpeg" alt="">
+                </li>
+                <li>
+                    <img src="img/maroon5_1.jpeg" alt="">
+                </li>
+                <li>
+                    <img src="img/cupid.jpeg" alt="">
+                </li>
+                
+                
+            </div>
+         </div>
+        </div>
+        <div class="master_play">
+            <div class="wave" id= 'wave'>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+            <img src="img/1.jpeg" alt="" id="poster_master_play">
+            <h5 id="title">
+                Copines
+                <div class="subtitle">Aya Nakamura</div>
+            </h5>
+            <div class="icon">
+                <i class="bi shuffle bi-music-note-beamed">next</i>
+                <i class="bi bi-skip-start-fill" id="back"></i>
+                <i class="bi bi-play-fill" id="masterPlay"></i>
+                <i class="bi bi-skip-end-fill" id="next"></i>
+                <a href="" download id="download_music"><i class="bi bi-cloud-arrow-down-fill" ></i></a>
+            </div>
+            <span id="currentStart">0:00</span>
+            <div class="bar">
+                <input type="range" name="" id="seek" min="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+            </div>
+            <span id="currentEnd">0:30</span>
+            <div class="vol">
+                <i class="bi bi-volume-up-fill" id="vol_icon"></i>
+                <input type="range" min="0" max="100" id="vol">
+                <div class="vol_bar"></div>
+                <div class="dot" id="vol_dot"></div>
+            </div>
+        </div>
+
+    </header>
+    <script src="app.js"></script>
+</body>
+</html>
